@@ -1,0 +1,12 @@
+ios:
+  push:
+    categories:
+      - name: "Gesundheit" 
+        identifier: 'illness_notification' 
+        actions: 
+          - identifier: 'illness.yes'
+            title: 'Ja'
+            icon: "sfsymbols:bed.double"
+          - identifier: 'illness.no'
+            title: 'Nein, Danke'
+            icon: "sfsymbols:bag"
